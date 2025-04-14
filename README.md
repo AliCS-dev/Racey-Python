@@ -1,8 +1,8 @@
-Racey Game - README
-Overview
+## Racey Game - README
+# Overview
 Racey is a simple car dodging game built using Python and the Pygame library. In this game, you control a car and attempt to dodge falling obstacles while collecting points for every obstacle avoided. The game increases in difficulty as the speed and size of the obstacles grow over time.
 
-Features
+# Features
 Car Movement: Move your car left or right to dodge obstacles using the arrow keys.
 
 Obstacles: Rectangular obstacles fall from the top of the screen that you must avoid. The speed and size of obstacles increase as you dodge more.
@@ -13,47 +13,21 @@ Collision Detection: The game features collision detection to end the game if yo
 
 Game Restart: After crashing, you can restart the game from the intro screen or quit.
 
-Requirements
-Python 3.x
-
-Pygame library
-
-To install Pygame, you can use the following command:
-
-bash
-Copy
-Edit
-pip install pygame
-Setup and Usage
-Clone the Repository (or download the code files).
-
-Make sure you have the necessary dependencies installed.
-
-Place your car image (Racey.png) in the same directory as the script, or update the path in the script if your image is located elsewhere.
-
-Run the game by executing the Python script:
-
-bash
-Copy
-Edit
-python racey_game.py
-Enjoy playing the game!
-
-Game Controls
+# Game Controls
 Left Arrow: Move the car left.
 
 Right Arrow: Move the car right.
 
 Escape / Quit: Exit the game from the main menu or after crashing.
 
-Game Flow
+## Game Flow
 Intro Screen:
 
 The game starts with a title screen that shows "FAST AND FURIOUS".
 
 You can either press the GO! button to start playing or Quit to exit the game.
 
-Main Game Loop:
+## Main Game Loop:
 
 The car starts at a fixed position on the screen.
 
@@ -67,7 +41,7 @@ Restart or Quit:
 
 After a crash, a "You Crashed!" message is displayed. You can then choose to restart the game or quit.
 
-Code Explanation
+## Code Explanation
 Pygame Initialization:
 
 pygame.init() initializes all Pygame modules to allow you to create a game window, handle input, and draw graphics.
