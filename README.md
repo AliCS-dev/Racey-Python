@@ -1,8 +1,11 @@
 ## Racey Game - README
+
 # Overview
+
 Racey is a simple car dodging game built using Python and the Pygame library. In this game, you control a car and attempt to dodge falling obstacles while collecting points for every obstacle avoided. The game increases in difficulty as the speed and size of the obstacles grow over time.
 
 # Features
+
 Car Movement: Move your car left or right to dodge obstacles using the arrow keys.
 
 Obstacles: Rectangular obstacles fall from the top of the screen that you must avoid. The speed and size of obstacles increase as you dodge more.
@@ -14,6 +17,7 @@ Collision Detection: The game features collision detection to end the game if yo
 Game Restart: After crashing, you can restart the game from the intro screen or quit.
 
 # Game Controls
+
 Left Arrow: Move the car left.
 
 Right Arrow: Move the car right.
@@ -21,6 +25,7 @@ Right Arrow: Move the car right.
 Escape / Quit: Exit the game from the main menu or after crashing.
 
 ## Game Flow
+
 Intro Screen:
 
 The game starts with a title screen that shows "FAST AND FURIOUS".
@@ -42,6 +47,7 @@ Restart or Quit:
 After a crash, a "You Crashed!" message is displayed. You can then choose to restart the game or quit.
 
 ## Code Explanation
+
 Pygame Initialization:
 
 pygame.init() initializes all Pygame modules to allow you to create a game window, handle input, and draw graphics.
@@ -68,5 +74,27 @@ Score and Difficulty:
 
 The player earns points for dodging obstacles. Every time an obstacle is successfully dodged, the speed of the obstacles increases, and the width of obstacles grows.
 
+## Update:
+
+--- Added new following features:
+✅ Lives system (hearts via number; no instant game over)
+
+✅ Multiple obstacles with varied sizes/speeds and gradual difficulty
+
+✅ Power-ups: SLOW (global slow-mo) and +1 life
+
+✅ Level progression every 10 dodges (more/faster obstacles)
+
+✅ Scrolling road background (uses road.png if present, otherwise a neutral fallback)
+
+✅ High score saved in highscore.txt
+
+✅ Sounds & music with safe fallbacks
+
+✅ Car skins selection per player
+
+✅ Pause menu (press P)
+
+✅ Two-player mode (P1: arrows, P2: A/D), winner announced on end screen
 Contributing
 If you'd like to contribute to this project, feel free to open an issue or submit a pull request. Any improvements, bug fixes, or new features are welcome!
